@@ -1,0 +1,33 @@
+.btn-submit {
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1rem 1.8rem 1rem 1.8rem;
+  background-color: #d83a38;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.btn-submit:hover {
+  background-color: #1e0245;
+  transition: all 0.5s;
+  border: none;
+}
+
+.form-input,
+.form-input-date {
+  width: 95%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin: 0.8rem 0;
+  border: 0.15rem solid #ccc;
+}
+
+.form-input:focus,
+.form-input-date:focus {
+  border: none;
+  outline: 0.15rem solid;
+  outline-color: orange;
+}

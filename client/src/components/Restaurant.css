@@ -1,0 +1,18 @@
+.restaurant-card-single {
+  display: grid;
+}
+
+@media (min-width: 60rem) {
+  .restaurant-card-single {
+    grid-template-columns: 2fr 3fr;
+  }
+  .restaurant-img-single {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  .restaurant-contents-single {
+    padding-left: 2rem;
+    margin-left: 1rem;
+  }
+}

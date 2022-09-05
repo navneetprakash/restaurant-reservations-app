@@ -1,0 +1,30 @@
+.reservation-list {
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr;
+}
+
+.reservation-list hr {
+  border: none;
+  margin: 1rem 0;
+  border-top: 0.125rem dashed rgb(184, 184, 184);
+  width: 95%;
+}
+
+.restaurant-not-found-link,
+.reservation-details a {
+  color: red;
+}
+
+@media (min-width: 60rem) {
+  .reservation-list {
+    grid-template-columns: 1fr;
+  }
+
+  .reservation-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}

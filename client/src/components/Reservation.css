@@ -1,0 +1,22 @@
+.reservation-quest-size {
+  font-weight: bold;
+}
+
+.reservation-list hr {
+  padding-top: 2rem;
+}
+
+.reservation-btn-back a {
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #080808;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.reservation-btn-back a:hover {
+  background-color: rgb(180, 180, 180);
+  transition: all 0.5s;
+}
